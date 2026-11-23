@@ -1,0 +1,8 @@
+{
+  "name": "e2e-server-watchdog",
+  "version": "1.0.0",
+  "description": "External watchdog for an E2E Cloud node",
+  "main": "watchdog.js",
+  "scripts": { "start": "node watchdog.js" },
+  "dependencies": { "dotenv": "^16.4.7", "nodemailer": "^6.9.16" }
+}
